@@ -1,8 +1,28 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+#app {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Titillium Web', sans-serif;
 }
 
-a {
-  color: #00B7FF;
+#tasks-header {
+	font-size: 32px;
+	margin-bottom: 16px;
+}
+
+#tasks {
+	margin-bottom: 16px;
+}
+
+.task {
+	margin-bottom: 8px;
+}
+
+.name, .save {
+	margin-right: 8px;
+}
+
+input, button {
+	font-size: 16px;
+	padding: 8px;
 }
